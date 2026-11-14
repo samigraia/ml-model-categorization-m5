@@ -1,0 +1,230 @@
+{
+ "ERRATIC": {
+  "CATBOOST": {
+   "learning_rate": 0.03573015516425252,
+   "depth": 3,
+   "l2_leaf_reg": 8.018462742595545
+  },
+  "ELASTIC_NET": {
+   "alpha": 0.06113647643464897,
+   "l1_ratio": 0.793299502429681
+  },
+  "EXTRA_TREES": {
+   "n_estimators": 272,
+   "max_depth": 8,
+   "max_features": 0.7194552094994259,
+   "min_samples_leaf": 6
+  },
+  "GRADIENT_BOOST": {
+   "learning_rate": 0.013522232134193051,
+   "max_depth": 6,
+   "subsample": 0.8353884720932794,
+   "min_samples_leaf": 54
+  },
+  "HGBR": {
+   "learning_rate": 0.019369414519523186,
+   "max_depth": 6,
+   "min_samples_leaf": 122,
+   "l2_regularization": 2.6392843300744078
+  },
+  "LASSO": {
+   "alpha": 0.10293148514405809
+  },
+  "LGBM": {
+   "learning_rate": 0.017523388695173593,
+   "num_leaves": 181,
+   "min_child_samples": 78,
+   "reg_lambda": 0.5479142945450447,
+   "subsample": 0.7763667984421143,
+   "colsample_bytree": 0.8922653499144836
+  },
+  "RANDOM_FOREST": {
+   "n_estimators": 283,
+   "max_depth": 22,
+   "max_features": 0.6179373342761093,
+   "min_samples_leaf": 33
+  },
+  "RIDGE": {
+   "alpha": 12.723019460521071
+  },
+  "XGBOOST": {
+   "learning_rate": 0.013481905700901653,
+   "max_depth": 8,
+   "min_child_weight": 63,
+   "reg_lambda": 0.3252251344098872,
+   "subsample": 0.7756950516669991,
+   "colsample_bytree": 0.8941097727836395
+  }
+ },
+ "INTERMITTENT": {
+  "CATBOOST": {
+   "learning_rate": 0.02342727519221043,
+   "depth": 3,
+   "l2_leaf_reg": 3.9779757138089935
+  },
+  "ELASTIC_NET": {
+   "alpha": 0.039054412752107935,
+   "l1_ratio": 0.2912291401980419
+  },
+  "EXTRA_TREES": {
+   "n_estimators": 212,
+   "max_depth": 4,
+   "max_features": 0.9237323603650884,
+   "min_samples_leaf": 11
+  },
+  "GRADIENT_BOOST": {
+   "learning_rate": 0.01609894978983996,
+   "max_depth": 2,
+   "subsample": 0.7183665141598543,
+   "min_samples_leaf": 20
+  },
+  "HGBR": {
+   "learning_rate": 0.018189017536015883,
+   "max_depth": 2,
+   "min_samples_leaf": 32,
+   "l2_regularization": 0.47155809915275565
+  },
+  "LASSO": {
+   "alpha": 0.011352616372480903
+  },
+  "LGBM": {
+   "learning_rate": 0.01366580968027133,
+   "num_leaves": 214,
+   "min_child_samples": 51,
+   "reg_lambda": 5.8666688110613405,
+   "subsample": 0.7754768744869831,
+   "colsample_bytree": 0.6822411127606092
+  },
+  "RANDOM_FOREST": {
+   "n_estimators": 275,
+   "max_depth": 3,
+   "max_features": 0.8199963082262632,
+   "min_samples_leaf": 9
+  },
+  "RIDGE": {
+   "alpha": 210.97126777803228
+  },
+  "XGBOOST": {
+   "learning_rate": 0.017480436942946632,
+   "max_depth": 10,
+   "min_child_weight": 37,
+   "reg_lambda": 0.5916918616341663,
+   "subsample": 0.6406066547089769,
+   "colsample_bytree": 0.5773954108488019
+  }
+ },
+ "LUMPY": {
+  "CATBOOST": {
+   "learning_rate": 0.03401269611316471,
+   "depth": 3,
+   "l2_leaf_reg": 9.190027921603221
+  },
+  "ELASTIC_NET": {
+   "alpha": 0.04667712988290042,
+   "l1_ratio": 0.9343945481424327
+  },
+  "EXTRA_TREES": {
+   "n_estimators": 262,
+   "max_depth": 12,
+   "max_features": 0.8808166545311459,
+   "min_samples_leaf": 28
+  },
+  "GRADIENT_BOOST": {
+   "learning_rate": 0.018277547458968008,
+   "max_depth": 2,
+   "subsample": 0.9374266766389378,
+   "min_samples_leaf": 99
+  },
+  "HGBR": {
+   "learning_rate": 0.016520548787773297,
+   "max_depth": 2,
+   "min_samples_leaf": 108,
+   "l2_regularization": 0.2627420136717955
+  },
+  "LASSO": {
+   "alpha": 0.039543962913277414
+  },
+  "LGBM": {
+   "learning_rate": 0.016302866077630658,
+   "num_leaves": 217,
+   "min_child_samples": 107,
+   "reg_lambda": 0.5957817548986944,
+   "subsample": 0.502685122497566,
+   "colsample_bytree": 0.9018890381540398
+  },
+  "RANDOM_FOREST": {
+   "n_estimators": 92,
+   "max_depth": 25,
+   "max_features": 0.3214800550550358,
+   "min_samples_leaf": 65
+  },
+  "RIDGE": {
+   "alpha": 177.38792633831443
+  },
+  "XGBOOST": {
+   "learning_rate": 0.016693979689033935,
+   "max_depth": 8,
+   "min_child_weight": 85,
+   "reg_lambda": 1.750842609859852,
+   "subsample": 0.6907418943053187,
+   "colsample_bytree": 0.8297634955555907
+  }
+ },
+ "SMOOTH": {
+  "CATBOOST": {
+   "learning_rate": 0.02939105165387803,
+   "depth": 4,
+   "l2_leaf_reg": 0.4655238038910968
+  },
+  "ELASTIC_NET": {
+   "alpha": 0.03164827579775383,
+   "l1_ratio": 0.03799869933078842
+  },
+  "EXTRA_TREES": {
+   "n_estimators": 193,
+   "max_depth": 7,
+   "max_features": 0.6452567151297705,
+   "min_samples_leaf": 5
+  },
+  "GRADIENT_BOOST": {
+   "learning_rate": 0.02881142411300489,
+   "max_depth": 2,
+   "subsample": 0.9529256229793666,
+   "min_samples_leaf": 58
+  },
+  "HGBR": {
+   "learning_rate": 0.04608349881643771,
+   "max_depth": 2,
+   "min_samples_leaf": 78,
+   "l2_regularization": 0.8681496974929307
+  },
+  "LASSO": {
+   "alpha": 0.012100765473628419
+  },
+  "LGBM": {
+   "learning_rate": 0.014215995185902441,
+   "num_leaves": 220,
+   "min_child_samples": 62,
+   "reg_lambda": 2.255845113124592,
+   "subsample": 0.7582851348182851,
+   "colsample_bytree": 0.8495350919355972
+  },
+  "RANDOM_FOREST": {
+   "n_estimators": 206,
+   "max_depth": 6,
+   "max_features": 0.5416886377194632,
+   "min_samples_leaf": 5
+  },
+  "RIDGE": {
+   "alpha": 52.68851605308102
+  },
+  "XGBOOST": {
+   "learning_rate": 0.013709660990405529,
+   "max_depth": 10,
+   "min_child_weight": 35,
+   "reg_lambda": 3.633172271205422,
+   "subsample": 0.5475416824334484,
+   "colsample_bytree": 0.6494499854073085
+  }
+ }
+}
