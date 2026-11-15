@@ -26,7 +26,11 @@ readable rule make that choice?
 - `notebooks/M5_V2_Final_Categorization.ipynb`: benchmarks, categorization,
   results, robustness checks and figures
 - `src/pipeline_v2.py`: shared definitions (features, windows, RMSSE, classes, models)
-- `results/`: the frozen result files used in Chapters 3 and 4 of the thesis
+- `results/`: the frozen result files used in Chapters 2 and 3 of the thesis
+- `inputs/`: the 3,305 sample products (`FINAL_SAMPLE_3305.csv`), the four tuning
+  sub-samples (`subsample_*.csv`) with their validation report, and the reference
+  classification (`demand_classification_results.csv`). They were built beforehand
+  in a separate notebook and are read by the notebooks above.
 
 ## Data
 The M5 data are not included. Download them from Kaggle:
@@ -36,6 +40,11 @@ Put `sales_train_validation.csv`, `calendar.csv` and `sell_prices.csv` in
 only for the blind test W7).
 
 ## How to run
+Before the first run, copy the files of `inputs/` to Google Drive:
+`FINAL_SAMPLE_3305.csv` and `demand_classification_results.csv` to
+`MyDrive/M5_Thesis/results`, and the four `subsample_*.csv` files to
+`MyDrive/M5_Thesis/subsamples`.
+
 Run the notebooks on Google Colab with Google Drive mounted, in this order:
 tuning (both parts), evaluation, final. Long cells save their results to Drive and
 skip the work when the file already exists. Random seeds are fixed (models and
@@ -47,3 +56,6 @@ tuning: 42, sample: 152, other random steps: 0).
   result, which are the numbers reported in the thesis.
 - The figure cell of the final notebook draws the figures with earlier labels
   and numbering. The figures in the thesis use the final labels.
+- Comments in the notebooks use the earlier numbering of the thesis: its
+  Chapters 3 and 4 are now Chapters 2 and 3, and the section, table and figure
+  numbers have changed.
